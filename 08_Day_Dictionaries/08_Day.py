@@ -12,4 +12,5 @@ person = {
 
  }
 
+# print(len(person))
 print(person)
