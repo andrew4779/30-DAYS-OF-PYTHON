@@ -56,10 +56,10 @@ dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Andrew',
+    'last_name':'Kimani',
     'age':250,
-    'country':'Finland',
+    'country':'Kenya',
     'is_marred':True,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
