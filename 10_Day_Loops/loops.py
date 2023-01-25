@@ -23,3 +23,5 @@
 # for letter in language:
 #     print(language)
 
+for i in range(len(language)):
+    print(language(i))
