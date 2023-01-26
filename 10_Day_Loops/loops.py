@@ -44,3 +44,9 @@ for key in person:
 
 for key, value in person.items():
     print(key, value) # this way we get both keys and values printed out
+
+
+lst = list(range(11))
+print(lst)
+st = set(range(1,11))
+print(st)
