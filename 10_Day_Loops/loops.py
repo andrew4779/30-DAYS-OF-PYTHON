@@ -56,3 +56,8 @@ for number in range(11):
     print(number)
 else:
     print("The loops stops at", number)
+
+
+for number in range(6):
+    pass
+    
