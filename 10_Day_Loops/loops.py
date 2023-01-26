@@ -52,3 +52,7 @@ st = set(range(1,11))
 print(st)
 
 
+for number in range(11):
+    print(number)
+else:
+    print("The loops stops at", number)
