@@ -22,3 +22,12 @@ def greetings (name):
     return message
 
 print(greetings('Andrew'))
+
+
+def square_number(x):
+    return x * x
+print(square_number(2))
+
+def subtraction(y):
+    return y - 12
+print(subtraction(15))
