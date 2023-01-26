@@ -50,3 +50,5 @@ lst = list(range(11))
 print(lst)
 st = set(range(1,11))
 print(st)
+
+
