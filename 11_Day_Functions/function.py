@@ -31,3 +31,9 @@ print(square_number(2))
 def subtraction(y):
     return y - 12
 print(subtraction(15))
+
+def calculate_age (current_year, birth_year):
+    age = current_year - birth_year
+    return age;
+
+print('Age:', calculate_age(2023, 2002))
