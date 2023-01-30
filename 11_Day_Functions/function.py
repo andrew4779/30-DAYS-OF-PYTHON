@@ -60,4 +60,16 @@ print(find_even_numbers(10))
 #     return odds
 # print(find_odd_numbers(10))
 
+def greetings (name = "Peter"):
+    message = name +" , Welcome to Python everyone!"
+    return message
+print(greetings())
+print(greetings("Andrew"))
 
+
+def generate_full_name(first_name = "Andrew", last_name = "kimani"):
+    space = ' '
+    full_name = first_name + space + last_name
+    return full_name
+print (generate_full_name())
+print(generate_full_name("David", "Smith"))
