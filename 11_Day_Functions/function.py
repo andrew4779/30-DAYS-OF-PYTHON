@@ -42,3 +42,12 @@ def add_two_numbers (num1, num2):
     total = num1 + num2
     return total
 print(add_two_numbers(10, 15))
+
+
+def find_even_numbers(n):
+    evens = []
+    for i in range (n + 1):
+        if i % 2 ==0:
+            evens.append(i)
+    return evens
+print(find_even_numbers(10))
