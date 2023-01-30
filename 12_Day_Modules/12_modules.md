@@ -75,7 +75,7 @@ We can have many functions in a file and we can import all the functions differe
 ```py
 # main.py file
 from mymodule import generate_full_name, sum_two_nums, person, gravity
-print(generate_full_name('Asabneh','kimani'))
+print(generate_full_name('Andrew','kimani'))
 print(sum_two_nums(1,9))
 mass = 100;
 weight = mass * gravity
@@ -90,7 +90,7 @@ During importing we can rename the name of the module.
 ```py
 # main.py file
 from mymodule import generate_full_name as fullname, sum_two_nums as total, person as p, gravity as g
-print(fullname('Asabneh','kimani'))
+print(fullname('Andrew','kimani'))
 print(total(1, 9))
 mass = 100;
 weight = mass * g
