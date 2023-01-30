@@ -52,3 +52,12 @@ def find_even_numbers(n):
     return evens
 print(find_even_numbers(10))
 
+# def find_odd_numbers(a):
+#     odds = []
+#     for i in range (a+ 1):
+#         if i % 3 ==0:
+#             odds.append(i)
+#     return odds
+# print(find_odd_numbers(10))
+
+
