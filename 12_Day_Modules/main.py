@@ -23,3 +23,7 @@ print(pi)
 from math import *
 print(pi)
 print(sqrt(2)) 
+
+from random import random, randint
+print(random())
+print(randint(20, 30))
