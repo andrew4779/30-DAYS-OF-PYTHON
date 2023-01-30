@@ -1,17 +1,17 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 12 - Modules </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/Andrew/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/Andrew">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Andrew?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
+<a href="https://www.linkedin.com/in/drew-kimani/" target="_blank">Andrew kimani</a><br>
+<small> Second Edition: Jan, 2023</small>
 </sub>
-
+3
 </div>
 </div>
 
@@ -65,7 +65,7 @@ To import the file we use the _import_ keyword and the name of the file only.
 ```py
 # main.py file
 import mymodule
-print(mymodule.generate_full_name('Asabeneh', 'Yetayeh')) # Asabeneh Yetayeh
+print(mymodule.generate_full_name('Andrew', 'kimani')) # Andrew kimani
 ```
 
 ### Import Functions from a Module
@@ -75,7 +75,7 @@ We can have many functions in a file and we can import all the functions differe
 ```py
 # main.py file
 from mymodule import generate_full_name, sum_two_nums, person, gravity
-print(generate_full_name('Asabneh','Yetayeh'))
+print(generate_full_name('Asabneh','kimani'))
 print(sum_two_nums(1,9))
 mass = 100;
 weight = mass * gravity
@@ -90,7 +90,7 @@ During importing we can rename the name of the module.
 ```py
 # main.py file
 from mymodule import generate_full_name as fullname, sum_two_nums as total, person as p, gravity as g
-print(fullname('Asabneh','Yetayeh'))
+print(fullname('Asabneh','kimani'))
 print(total(1, 9))
 mass = 100;
 weight = mass * g
@@ -135,13 +135,13 @@ print('Welcome {}. Enjoy  {} challenge!'.format(sys.argv[1], sys.argv[2]))
 Now to check how this script works I wrote in command line:
 
 ```sh
-python script.py Asabeneh 30DaysOfPython
+python script.py Andrew 30DaysOfPython
 ```
 
 The result:
 
 ```sh
-Welcome Asabeneh. Enjoy  30DayOfPython challenge! 
+Welcome Andrew. Enjoy  30DayOfPython challenge! 
 ```
 
 Some useful sys commands:
