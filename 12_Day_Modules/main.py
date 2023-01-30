@@ -12,3 +12,14 @@
 
 import math
 print(math.pi)
+
+# IMPORTING ONLY A SPECFIC FUNCTION FROM THE MODULE'
+
+from math import pi
+print(pi)
+
+# importing all the functions
+
+from math import *
+print(pi)
+print(sqrt(2)) 
