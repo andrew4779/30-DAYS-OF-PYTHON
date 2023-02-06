@@ -21,4 +21,3 @@ def add_two_sums(a,b):
     return  a + b
 
 print(add_two_sums(2, 3))
-
