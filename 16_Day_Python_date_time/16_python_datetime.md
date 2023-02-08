@@ -8,7 +8,7 @@
   </a>
 
   <sub>Author:
-  <a href="https://www.linkedin.com/in/Andrew/" target="_blank">Andrew Yetayeh</a><br>
+  <a href="https://www.linkedin.com/in/drew-kimani/" target="_blank">Andrew kimani</a><br>
   <small>Second Edition: July, 2023</small>
   </sub>
 
