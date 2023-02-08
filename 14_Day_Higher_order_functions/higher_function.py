@@ -49,3 +49,4 @@ def uppercase_decorator(function):
     return wrapper
 g = uppercase_decorator(greeting)
 print(g())
+
