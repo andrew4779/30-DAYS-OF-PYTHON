@@ -6,6 +6,7 @@ def higher_order_function(f, lst):
     summation = f(lst)
     return summation
 
+#    /////////////////////////////////////////////////
 result = higher_order_function(sum_numbers, [1, 2, 3, 4, 5])
 print(result)
 
@@ -29,3 +30,9 @@ def higher_order_function(type):
     elif type =='absolute':
         return absolute
 
+result = higher_order_function('square')
+print(result(3))
+result = higher_order_function('cube')
+print(result(3))
+result = higher_order_function('absolute')
+print(result(-3))
