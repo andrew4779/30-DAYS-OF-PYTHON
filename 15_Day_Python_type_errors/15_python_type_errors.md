@@ -127,6 +127,7 @@ IndexError: list index out of range
 >>>
 ```
 
+
 In the example above, Python raised an _IndexError_, because the list has only indexes from 0 to 4 , so it was out of range.
 
 ### ModuleNotFoundError
