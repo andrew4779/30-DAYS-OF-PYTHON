@@ -36,3 +36,16 @@ result = higher_order_function('cube')
 print(result(3))
 result = higher_order_function('absolute')
 print(result(-3))
+
+# A decorator is a design pattern in python which allows a user to add a new functionality to an object without modifying its structure.
+
+def greeting():
+    return 'Welcome to python'
+def uppercase_decorator(function):
+    def wrapper():
+        func = function()
+        make_uppercase = func.upper()
+        return make_uppercase
+    return wrapper
+g = uppercase_decorator(greeting)
+print(g())
