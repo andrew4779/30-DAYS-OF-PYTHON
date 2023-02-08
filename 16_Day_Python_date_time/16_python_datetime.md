@@ -9,7 +9,7 @@
 
   <sub>Author:
   <a href="https://www.linkedin.com/in/drew-kimani/" target="_blank">Andrew kimani</a><br>
-  <small>Second Edition: July, 2023</small>
+  <small>Second Edition: Feb, 2023</small>
   </sub>
 
 </div>
