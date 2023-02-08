@@ -20,3 +20,12 @@ def absolute(x):
         return x
     else:
         return -(x)
+
+def higher_order_function(type):
+    if type == 'square':
+        return square
+    elif type == 'cube':
+        return cube
+    elif type =='absolute':
+        return absolute
+
