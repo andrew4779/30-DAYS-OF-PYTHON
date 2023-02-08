@@ -1,15 +1,15 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 16 - Python Date time </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/Andrew/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/masaneii">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Andrew?style=social">
   </a>
 
   <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small>Second Edition: July, 2021</small>
+  <a href="https://www.linkedin.com/in/Andrew/" target="_blank">Andrew Yetayeh</a><br>
+  <small>Second Edition: July, 2023</small>
   </sub>
 
 </div>
@@ -46,17 +46,24 @@ With dir or help built-in commands it is possible to know the available function
 ```py
 from datetime import datetime
 now = datetime.now()
-print(now)                      # 2021-07-08 07:34:46.549883
+print(now)                      # 2023-07-08 07:34:46.549883
 day = now.day                   # 8
 month = now.month               # 7
-year = now.year                 # 2021
+year = now.year                 # 2023
+
+
+
+
+
+
+
 hour = now.hour                 # 7
 minute = now.minute             # 38
 second = now.second
 timestamp = now.timestamp()
 print(day, month, year, hour, minute)
 print('timestamp', timestamp)
-print(f'{day}/{month}/{year}, {hour}:{minute}')  # 8/7/2021, 7:38
+print(f'{day}/{month}/{year}, {hour}:{minute}')  # 8/7/2023, 7:38
 ```
 
 Timestamp or Unix timestamp is the number of seconds elapsed from 1st of January 1970 UTC.
