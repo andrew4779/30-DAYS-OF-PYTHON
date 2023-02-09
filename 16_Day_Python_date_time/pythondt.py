@@ -7,3 +7,5 @@ print(now)
 date = now.day
 month = now.month
 year = now.year
+
+print(date, month, year)
