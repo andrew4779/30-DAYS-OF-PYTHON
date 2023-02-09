@@ -24,10 +24,24 @@ except:print("something went wrong")
 
 
 
-try:
-    name = input('Enter your name:')
-    year_born = input('Year you born:')
-    age = 2019 - int(year_born)
-    print('You are {name}. And your age is {age}.')
-except Exception as e:
-    print(e)
+# try:
+#     name = input('Enter your name:')
+#     year_born = input('Year you born:')
+#     age = 2019 - int(year_born)
+#     print('You are {name}. And your age is {age}.')
+# except Exception as e:
+#     print(e)
+
+
+def sum_of_five_nums(a, b, c, d, e):
+    return a + b + c + d + e
+
+lst = [1, 2, 3, 4, 5]
+print(sum_of_five_nums(*lst))
+
+
+numbers = range(2, 7)
+print(list(numbers))
+args = [2, 7]
+numbers = range(*args)
+print(numbers)
