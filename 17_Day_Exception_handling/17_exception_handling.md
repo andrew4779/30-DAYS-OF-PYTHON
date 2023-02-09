@@ -93,7 +93,7 @@ except ZeroDivisionError:
 ```
 
 ```sh
-Enter your name:Asabeneh
+Enter your name:Andrew
 Year you born:1920
 Type error occured
 ```
@@ -120,7 +120,7 @@ finally:
 ```
 
 ```sh
-Enter your name:Asabeneh
+Enter your name:Andrew
 Year you born:1920
 You are Asabeneh. And your age is 99.
 I usually run with the try block
