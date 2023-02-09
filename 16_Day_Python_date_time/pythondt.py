@@ -1,2 +1,2 @@
 import datetime
-print(dt(datetime))
+print(dir(datetime))
