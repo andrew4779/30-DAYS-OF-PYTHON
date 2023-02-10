@@ -8,8 +8,8 @@
   </a>
 
   <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> First Edition: Nov 22 - Dec 22, 2019</small>
+  <a href="https://www.linkedin.com/in/drew-kimani/" target="_blank">Andrew kimani</a><br>
+  <small> First Edition: Nov 22 - Feb 10, 2023</small>
   </sub>
 </div>
 </div>
