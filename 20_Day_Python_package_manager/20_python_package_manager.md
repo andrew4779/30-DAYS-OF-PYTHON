@@ -47,7 +47,7 @@ In programming, we do not have to write every utility program, instead we instal
 If you did not install pip, let us install it now. Go to your terminal or command prompt and copy and paste this:
 
 ```sh
-andrew@andrew=latitude-E5270:~$ pip install pip
+asabeneh@Asabeneh:~$ pip install pip
 ```
 
 Check if pip is installed by writing
@@ -57,7 +57,7 @@ pip --version
 ```
 
 ```py
-andrew@andrew-latitude-E5270:~$ pip --version
+asabeneh@Asabeneh:~$ pip --version
 pip 21.1.3 from /usr/local/lib/python3.7/site-packages/pip (python 3.9.6)
 ```
 
@@ -76,13 +76,13 @@ Let us try to install _numpy_, called numeric python. It is one of the most popu
   - useful linear algebra, Fourier transform, and random number capabilities
 
 ```sh
-andrew@andrew-latitude-E5270:~$ pip install numpy
+asabeneh@Asabeneh:~$ pip install numpy
 ```
 
 Let us start using numpy. Open your python interactive shell, write python and then import numpy as follows:
 
 ```py
-andrew@andrew-latitude-E5270:~$ python3
+asabeneh@Asabeneh:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -105,11 +105,11 @@ array([3, 4, 5, 6, 7])
 Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. Let us install the big brother of numpy, _pandas_:
 
 ```sh
-asabeneh@Asabeneh:~$ pip install pandas
+andrew@andrew-latitude-E5270:~$ pip install pandas
 ```
 
 ```py
-asabeneh@Asabeneh:~$ python
+andrew@andrew-latitude-E5270:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -126,9 +126,9 @@ import webbrowser # web browser module to open websites
 # list of urls: python
 url_lists = [
     'http://www.python.org',
-    'https://www.linkedin.com/in/asabeneh/',
-    'https://github.com/Asabeneh',
-    'https://twitter.com/Asabeneh',
+    'https://www.linkedin.com/in/drew-kimani/',
+    'https://github.com/andrew4779',
+    'https://twitter.com/masaneii',
 ]
 
 # opens the above list of websites in a different tab
