@@ -135,7 +135,7 @@ class Person:
           self.city = city
 
 
-p = Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+p = Person('Andrew', 'Kimani', 250, 'Kenya', 'Nairobi')
 print(p.firstname)
 print(p.lastname)
 print(p.age)
