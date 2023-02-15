@@ -169,13 +169,13 @@ class Person:
       def person_info(self):
         return f'{self.firstname} {self.lastname} is {self.age} years old. He lives in {self.city}, {self.country}'
 
-p = Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+p = Person('Andrew', 'Yetayeh', 250, 'Nairobi', 'Kenya')
 print(p.person_info())
 ```
 
 ```sh
 # output
-Asabeneh Yetayeh is 250 years old. He lives in Helsinki, Finland
+Andrew kimani is 250 years old. He lives in Nairobi, Kenya
 ```
 
 ### Object Default Methods
