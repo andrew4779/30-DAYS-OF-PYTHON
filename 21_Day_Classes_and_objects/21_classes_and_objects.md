@@ -169,7 +169,7 @@ class Person:
       def person_info(self):
         return f'{self.firstname} {self.lastname} is {self.age} years old. He lives in {self.city}, {self.country}'
 
-p = Person('Andrew', 'Yetayeh', 250, 'Nairobi', 'Kenya')
+p = Person('Andrew', 'Kimani', 250, 'Nairobi', 'Kenya')
 print(p.person_info())
 ```
 
@@ -186,7 +186,7 @@ Sometimes, you may want to have a default values for your object methods. If we 
 
 ```py
 class Person:
-      def __init__(self, firstname='Asabeneh', lastname='Yetayeh', age=250, country='Finland', city='Helsinki'):
+      def __init__(self, firstname='Andrew', lastname='kimani', age=250, country='Finland', city='Helsinki'):
           self.firstname = firstname
           self.lastname = lastname
           self.age = age
@@ -204,7 +204,7 @@ print(p2.person_info())
 
 ```sh
 # output
-Asabeneh Yetayeh is 250 years old. He lives in Helsinki, Finland.
+Andrew kimani is 250 years old. He lives in Helsinki, Finland.
 John Doe is 30 years old. He lives in Noman city, Nomanland.
 ```
 
