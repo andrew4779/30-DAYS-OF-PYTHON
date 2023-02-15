@@ -31,6 +31,7 @@
     - [Further Information About Packages](#further-information-about-packages)
   - [Exercises: Day 20](#exercises-day-20)
 
+
 # 📘 Day 20
 
 ## Python PIP - Python Package Manager
