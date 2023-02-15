@@ -3,12 +3,12 @@
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <a class="header-badge" target="_blank" href="https://twitter.com/masaneii">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/masaneii/" target="_blank">Andrew kimani</a><br>
+<a href="https://www.linkedin.com/in/drew-kimani/" target="_blank">Andrew kimani</a><br>
 <small>Second Edition: Feb, 2023</small>
 </sub>
 </div>
