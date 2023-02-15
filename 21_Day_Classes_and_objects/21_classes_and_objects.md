@@ -145,11 +145,11 @@ print(p.city)
 
 ```sh
 # output
-Asabeneh
-Yetayeh
-250
-Finland
-Helsinki
+Andrew
+Kimani
+20
+Kenya
+Nairobi
 ```
 
 ### Object Methods
