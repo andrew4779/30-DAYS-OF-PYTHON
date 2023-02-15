@@ -161,7 +161,7 @@ Objects can have methods. The methods are functions which belong to the object.
 ```py
 class Person:
       def __init__(self, firstname, lastname, age, country, city):
-          self.firstname = firstname
+          self.firstname = firstnam
           self.lastname = lastname
           self.age = age
           self.country = country
