@@ -47,7 +47,7 @@ In programming, we do not have to write every utility program, instead we instal
 If you did not install pip, let us install it now. Go to your terminal or command prompt and copy and paste this:
 
 ```sh
-asabeneh@Asabeneh:~$ pip install pip
+andrew@andrew=latitude-E5270:~$ pip install pip
 ```
 
 Check if pip is installed by writing
