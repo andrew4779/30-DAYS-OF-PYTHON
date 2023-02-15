@@ -112,7 +112,7 @@ class Person:
         # self allows to attach parameter to the class
           self.name =name
 
-p = Person('Asabeneh')
+p = Person('Andrew')
 print(p.name)
 print(p)
 ```
