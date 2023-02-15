@@ -515,4 +515,3 @@ field: skills
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 18](../18_Day_Regular_expressions/18_regular_expressions.md) | [Day 20 >>](../20_Day_Python_package_manager/20_python_package_manager.md)
-
