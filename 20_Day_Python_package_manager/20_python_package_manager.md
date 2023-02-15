@@ -76,13 +76,13 @@ Let us try to install _numpy_, called numeric python. It is one of the most popu
   - useful linear algebra, Fourier transform, and random number capabilities
 
 ```sh
-asabeneh@Asabeneh:~$ pip install numpy
+andrew@andrew-latitude-E5270:~$ pip install numpy
 ```
 
 Let us start using numpy. Open your python interactive shell, write python and then import numpy as follows:
 
 ```py
-asabeneh@Asabeneh:~$ python
+andrew@andrew-latitude-E5270:~$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
