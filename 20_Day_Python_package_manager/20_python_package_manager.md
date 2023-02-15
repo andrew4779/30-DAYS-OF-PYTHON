@@ -386,7 +386,7 @@ The folder structure of your package should look like this:
 Now let's open the python interactive shell and try the package we have created:
 
 ```sh
-asabeneh@Asabeneh:~/Desktop/30DaysOfPython$ python
+andrew@andrew-latitude-E5270:~/Desktop/30DaysOfPython$ python
 Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
