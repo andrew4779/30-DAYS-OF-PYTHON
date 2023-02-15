@@ -164,7 +164,7 @@ pip show packagename
 ```
 
 ```sh
-asabeneh@Asabeneh:~$ pip show pandas
+andrew@andrew-latitude-E5270~$ pip show pandas
 Name: pandas
 Version: 1.2.3
 Summary: Powerful data structures for data analysis, time series, and statistics
@@ -180,7 +180,7 @@ Required-by:
 If we want even more details, just add --verbose
 
 ```sh
-asabeneh@Asabeneh:~$ pip show --verbose pandas
+andrew@andrew-latitude-E5270:~$ pip show --verbose pandas
 Name: pandas
 Version: 1.2.3
 Summary: Powerful data structures for data analysis, time series, and statistics
@@ -216,7 +216,7 @@ Entry-points:
 Generate installed Python packages with their version and the output is suitable to use it in a requirements file. A requirements.txt file is a file that should contain all the installed Python packages in a Python project.
 
 ```sh
-asabeneh@Asabeneh:~$ pip freeze
+andrew@andrew-latitude-E5270:~$ pip freeze
 docutils==0.11
 Jinja2==2.7.2
 MarkupSafe==0.19
@@ -234,7 +234,7 @@ API stands for Application Program Interface. It is a means to exchange structur
 Let us install _requests_:
 
 ```py
-asabeneh@Asabeneh:~$ pip install requests
+andrew@andrew-latitude-E5270:~$ pip install requests
 ```
 
 We will see _get_, _status_code_, _headers_, _text_ and _json_ methods in _requests_ module:
