@@ -8,8 +8,8 @@
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small>Second Edition: July, 2021</small>
+<a href="https://www.linkedin.com/in/masaneii/" target="_blank">Andrew kimani</a><br>
+<small>Second Edition: Feb, 2023</small>
 </sub>
 </div>
 
