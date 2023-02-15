@@ -404,8 +404,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> arithmetics.power(5, 3)
 125
 >>> from mypackage import greet
->>> greet.greet_person('Asabeneh', 'Yetayeh')
-'Asabeneh Yetayeh, welcome to 30DaysOfPython Challenge!'
+>>> greet.greet_person('Andrew', 'Kimani')
+'Andrew kimani, welcome to 30DaysOfPython Challenge!'
 >>>
 ```
 
