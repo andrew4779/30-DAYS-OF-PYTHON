@@ -13,3 +13,6 @@ url_lists = [
 
 for url in url_lists:
     webbrowser.open_new_tab(url)
+
+# API- Application program interface
+# To open a network connection you need a package  called _requests_
