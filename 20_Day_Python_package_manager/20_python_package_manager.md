@@ -57,7 +57,7 @@ pip --version
 ```
 
 ```py
-asabeneh@Asabeneh:~$ pip --version
+andrew@andrew-latitude-E5270:~$ pip --version
 pip 21.1.3 from /usr/local/lib/python3.7/site-packages/pip (python 3.9.6)
 ```
 
