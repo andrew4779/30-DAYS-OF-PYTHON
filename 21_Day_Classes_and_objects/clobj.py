@@ -45,3 +45,4 @@ class person:
 
     p = person ("Andrew", "Kimani", 20, "Kenya", "Nairobi")
     print(p)
+

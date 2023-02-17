@@ -240,7 +240,7 @@ print(p2.skills)
 
 ```sh
 # output
-Asabeneh Yetayeh is 250 years old. He lives in Helsinki, Finland.
+Andrew kimani is 250 years old. He lives in Kenya, Nairobi.
 John Doe is 30 years old. He lives in Noman city, Nomanland.
 ['HTML', 'CSS', 'JavaScript']
 []
