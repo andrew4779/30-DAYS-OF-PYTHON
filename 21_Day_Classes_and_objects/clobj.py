@@ -46,3 +46,20 @@ class person:
     p = person ("Andrew", "Kimani", 20, "Kenya", "Nairobi")
     print(p)
 
+
+class student(person):
+    pass
+
+s1 = student("Andrew", "kimani", 20, "Nairobi", "Kenya")
+s2 = student("Owen", "kamodho", 21, "Kiambu", "THika")
+print(s1.person_info())
+s1.add_skill('Javascript')
+s1.add_skill('Python')
+s1.add_skill('React')
+print(s1.skills)
+
+print(s2.person_info())
+s2.add_skill('Organizing')
+s2.add_skill('Marketing')
+s2.add_skill('Digital Marketing')
+print(s2.skills)
