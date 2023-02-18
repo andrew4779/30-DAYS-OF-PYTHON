@@ -9,7 +9,7 @@
 
 <sub>Author:
 <a href="https://www.linkedin.com/in/drew-kimani/" target="_blank">Andrew kimani</a><br>
-<small>Second Edition: July, 2021</small>
+<small>Second Edition: Feb, 2023</small>
 </sub>
 </div>
 
@@ -37,7 +37,7 @@ After completing this challenge, you may go onto the web development, data analy
 ## Data
 
 What is data? Data is any set of characters that is gathered and translated for some purpose, usually analysis. It can be any character, including text and numbers, pictures, sound, or video. If data is not put in a context, it doesn't make any sense to a human or computer. To make sense from data we need to work on the data using different tools.
-
+abeneh Yetayeh
 The work flow of data analysis, data science or machine learning starts from data. Data can be provided from some data source or it can be created. There are structured and unstructured data.
 
 Data can be found in small or big format. Most of the data types we will get have been covered in the file handling section.
