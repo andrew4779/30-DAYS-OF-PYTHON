@@ -1,15 +1,15 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 23 - Virtual Environment </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/drew-kimani/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/masaneii">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/masaneii?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
+<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Andrew kimani</a><br>
+<small> Second Edition: Feb, 2023</small>
 </sub>
 </div>
 
@@ -28,7 +28,7 @@
 To start with project, it would be better to have a virtual environment. Virtual environment can help us to create an isolated or separate environment. This will help us to avoid conflicts in dependencies across projects. If you write pip freeze on your terminal you will see all the installed packages on your computer. If we use virtualenv, we will access only packages which are specific for that project. Open your terminal and install virtualenv
 
 ```sh
-asabeneh@Asabeneh:~$ pip install virtualenv
+andrew@andrew-latitude-E5270:~$ pip install virtualenv
 ```
 
 Inside the 30DaysOfPython folder create a flask_project folder.
@@ -37,7 +37,7 @@ After installing the virtualenv package go to your project folder and create a v
 
 For Mac/Linux:
 ```sh
-asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project\$ virtualenv venv
+andrew@andrew-latitude-E5270:~/Desktop/30DaysOfPython/flask_project\$ virtualenv venv
 
 ```
 
@@ -49,7 +49,7 @@ C:\Users\User\Documents\30DaysOfPython\flask_project>python -m venv venv
 I prefer to call the new project venv, but feel free to name it differently. Let us check if the the venv was created by using ls (or dir for windows command prompt) command.
 
 ```sh
-asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$ ls
+andrew@andrew-latitude-E5270:~/Desktop/30DaysOfPython/flask_project$ ls
 venv/
 ```
 
@@ -57,7 +57,7 @@ Let us activate the virtual environment by writing the following command at our 
 
 For Mac/Linux:
 ```sh
-asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$ source venv/bin/activate
+andrew@andrew-latitude-E5270:~/Desktop/30DaysOfPython/flask_project$ source venv/bin/activate
 ```
 Activation of the virtual environment in Windows may very on Windows Power shell and git bash. 
 
@@ -74,7 +74,7 @@ C:\Users\User\Documents\30DaysOfPython\flask_project> venv\Scripts\. activate
 After you write the activation command, your project directory will start with venv. See the example below.
 
 ```sh
-(venv) asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$
+(venv) andrew@andrew-latitude-E5270:~/Desktop/30DaysOfPython/flask_project$
 ```
 
 Now, lets check the available packages in this project by writing pip freeze. You will not see any packages.
@@ -82,13 +82,13 @@ Now, lets check the available packages in this project by writing pip freeze. Yo
 We are going to do a small flask project so let us install flask package to this project.
 
 ```sh
-(venv) asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$ pip install Flask
+(venv) andrew@andrew-latitude-E5270:~/Desktop/30DaysOfPython/flask_project$ pip install Flask
 ```
 
 Now, let us write pip freeze to see a list of installed packages in the project:
 
 ```sh
-(venv) asabeneh@Asabeneh:~/Desktop/30DaysOfPython/flask_project$ pip freeze
+(venv) andrew@andrew-latitude-E5270:~/Desktop/30DaysOfPython/flask_project$ pip freeze
 Click==7.0
 Flask==1.1.1
 itsdangerous==1.1.0
@@ -100,7 +100,7 @@ Werkzeug==0.16.0
 When you finish you should dactivate active project using _deactivate_.
 
 ```sh
-(venv) asabeneh@Asabeneh:~/Desktop/30DaysOfPython$ deactivate
+(venv) andrew@andrew-latitude-E5270:~/Desktop/30DaysOfPython$ deactivate
 ```
 
 The necessary modules to work with flask are installed. Now, your project directory is ready for a flask project. You should include the venv to your .gitignore file not to push it to github.
