@@ -158,7 +158,7 @@ print(fruits)
 ### Creating Pandas Series from a Dictionary
 
 ```python
-dct = {'name':'Asabeneh','country':'Finland','city':'Helsinki'}
+dct = {'name':'Andrew','country':'Kenya','city':'Helsinki'}
 ```
 
 ```python
@@ -167,8 +167,8 @@ print(s)
 ```
 
 ```sh
-    name       Asabeneh
-    country     Finland
+    name       Andrew
+    country     Kenya
     city       Helsinki
     dtype: object
 ```
