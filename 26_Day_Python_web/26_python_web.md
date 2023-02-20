@@ -524,27 +524,27 @@ Before we push our code to remote server, we need requirements
 - Procfile
 
 ```sh
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip freeze
+(env) andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ pip freeze
 Click==7.0
 Flask==1.1.1
 itsdangerous==1.1.0
 Jinja2==2.10.3
 MarkupSafe==1.1.1
 Werkzeug==0.16.0
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ touch requirements.txt
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip freeze > requirements.txt
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ cat requirements.txt
+(env) andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ touch requirements.txt
+(env) andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ pip freeze > requirements.txt
+(env) andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ cat requirements.txt
 Click==7.0
 Flask==1.1.1
 itsdangerous==1.1.0
 Jinja2==2.10.3
 MarkupSafe==1.1.1
 Werkzeug==0.16.0
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ touch Procfile
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ ls
+(env) andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ touch Procfile
+(env) andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ ls
 Procfile          env/              static/
 app.py            requirements.txt  templates/
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$
+(env) andrew@andrew-latitudeE5270:~/Desktop/python_for_web$
 ```
 
 The Procfile will have the command which run the application in the web server in our case on Heroku.
