@@ -91,7 +91,7 @@ Select Python 3.6 or above driver
 Copy the connection string link and you will get something like this
 
 ```sh
-mongodb+srv://asabeneh:<password>@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority
+mongodb+srv://andrew:<password>@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority
 ```
 
 Do not worry about the url, it is a means to connect your application with mongoDB.
@@ -100,7 +100,7 @@ Let us replace the password placeholder with the password you used to add a user
 **Example:**
 
 ```sh
-mongodb+srv://asabeneh:123123123@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority
+mongodb+srv://andrew:123123123@30daysofpython-twxkr.mongodb.net/test?retryWrites=true&w=majority
 ```
 
 Now, I replaced everything and the password is 123123 and the name of the database is thirty_days_python. This is just an example, your password must be a bit stronger than this.
