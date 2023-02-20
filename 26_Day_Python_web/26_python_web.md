@@ -501,7 +501,7 @@ After installing heroku write the following command
 #### Login to Heroku
 
 ```sh
-asabeneh@Asabeneh:~$ heroku login
+andrew@andrew-latitudeE5270:~$ heroku login
 heroku: Press any key to open up the browser to login or q to exit:
 ```
 
