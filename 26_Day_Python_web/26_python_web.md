@@ -83,13 +83,13 @@ pip install virtualenv
 Step 2:
 
 ```sh
-asabeneh@Asabeneh:~/Desktop$ mkdir python_for_web
-asabeneh@Asabeneh:~/Desktop$ cd python_for_web/
-asabeneh@Asabeneh:~/Desktop/python_for_web$ virtualenv venv
-asabeneh@Asabeneh:~/Desktop/python_for_web$ source venv/bin/activate
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip freeze
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip install Flask
-(env) asabeneh@Asabeneh:~/Desktop/python_for_web$ pip freeze
+andrew@andrew-latitudeE5270:~/Desktop$ mkdir python_for_web
+andrew@andrew-latitudeE5270:~/Desktop$ cd python_for_web/
+andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ virtualenv venv
+andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ source venv/bin/activate
+(env) andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ pip freeze
+(env) andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ pip install Flask
+(env) andrew@andrew-latitudeE5270:~/Desktop/python_for_web$ pip freeze
 Click==7.0
 Flask==1.1.1
 itsdangerous==1.1.0
