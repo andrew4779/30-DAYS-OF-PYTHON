@@ -23,3 +23,6 @@ print(two_dimension_array)
 
 first_shape = np.array([(1, 2 ,3), (4, 5, 6)])
 print(first_shape)
+
+normal_array = np.random.normal(79, 15, 80)
+normal_array
