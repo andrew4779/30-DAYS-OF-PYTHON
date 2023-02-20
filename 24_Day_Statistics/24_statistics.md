@@ -332,7 +332,6 @@ ten_times_original = numpy_array_from_list // 10
 print(ten_times_original)
 ```
 
-
 ### Exponential
 
 ```py
