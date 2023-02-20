@@ -276,8 +276,8 @@ print(df)
   <tbody>
     <tr>
       <td>0</td>
-      <td>Asabeneh</td>
-      <td>Finland</td>
+      <td>Andrew</td>
+      <td>Kenya</td>
       <td>Helsiki</td>
     </tr>
     <tr>
@@ -299,7 +299,7 @@ print(df)
 
 ```python
 data = [
-    {'Name': 'Asabeneh', 'Country': 'Finland', 'City': 'Helsinki'},
+    {'Name': 'Andrew', 'Country': 'Kimani', 'City': 'Helsinki'},
     {'Name': 'David', 'Country': 'UK', 'City': 'London'},
     {'Name': 'John', 'Country': 'Sweden', 'City': 'Stockholm'}]
 df = pd.DataFrame(data)
