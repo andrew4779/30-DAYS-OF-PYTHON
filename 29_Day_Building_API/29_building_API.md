@@ -1,15 +1,19 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 29 - Building an API </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/drew-kimani/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
+  <a class="header-badge" target="_blank" href="https://twitter.com/masaneii">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small>Second Edition: July, 2021</small>
+<sub>Author:of response messages, usually in an XML or a JavaScript Object Notation (JSON) format.
+
+Web API has been moving away from Simple Object Access Protocol (SOAP) based web services and service-oriented architecture (SOA) towards more direct representational state transfer (REST) style web resources.
+
+
+<a href="https://www.linkedin.com/in/drew-kimani/" target="_blank">Andrew kimani</a><br>
+<small>Second Edition: Feb, 2023</small>
 </sub>
 
 </div>
@@ -92,7 +96,7 @@ app = Flask(__name__)
 def students ():
     student_list = [
         {
-            'name':'Asabeneh',
+            'name':'Andrew',
             'country':'Finland',
             'city':'Helsinki',
             'skills':['HTML', 'CSS','JavaScript','Python']
