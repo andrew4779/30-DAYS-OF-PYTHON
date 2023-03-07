@@ -177,3 +177,6 @@ ages.sort()
 print(ages) 
 ages.sort(reverse=True)
 print(ages) 
+
+fruits = ['banana', 'mango', 'orange', 'lemon']
+print(fruits)
