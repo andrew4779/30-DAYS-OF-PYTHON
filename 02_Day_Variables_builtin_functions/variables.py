@@ -72,3 +72,9 @@ print('num_float:', num_float)
 
 gravity = 29.2
 print(int(gravity))
+
+first_name = 'kimani'
+last_name = 'Andrew'
+
+print('Firstname: ', first_name)
+print('lastname: ', last_name)
